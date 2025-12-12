@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
 body {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
     height: auto;
+
     font-family: 'Roboto';
     background-color: purple;
 }
@@ -27,6 +39,10 @@ body {
     margin-bottom: 48px;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -39,9 +55,8 @@ a {
 }
 
 .header-img {
-    width: 700px;
+    width: 400px;
     height: 200px;
-    background-color: red;
 }
 
 .header {
